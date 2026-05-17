@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>De Cero a Negocio Digital — Programa de 8 Semanas</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:'Segoe UI',sans-serif;background:#0f0f1a;color:#fff;}
+    section{padding:80px 20px;}
+    .container{max-width:760px;margin:0 auto;}
+    h2{font-size:clamp(22px,4vw,38px);font-weight:800;line-height:1.2;margin-bottom:20px;}
+    p{font-size:17px;line-height:1.7;color:rgba(255,255,255,0.8);margin-bottom:16px;}
+
+    /* HERO */
+    .hero{background:linear-gradient(135deg,#6c23d9,#1a0a4a);text-align:center;padding:80px 20px;}
+    .hero .badge{display:inline-block;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);padding:6px 18px;border-radius:50px;font-size:12px;letter-spacing:1px;text-transform:uppercase;margin-bottom:24px;}
+    .hero h1{font-size:clamp(28px,5vw,54px);font-weight:900;line-height:1.1;margin-bottom:20px;}
+    .hero h1 span{color:#c084fc;}
+    .hero .sub{font-size:clamp(16px,2.5vw,20px);color:rgba(255,255,255,0.75);max-width:600px;margin:0 auto 40px;}
+
+    /* PARA QUIEN */
+    .card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:28px;margin-bottom:16px;}
+    .card p{margin:0;font-size:16px;}
+    .card p::before{content:"✅ ";font-size:18px;}
+
+    /* MODULOS */
+    .modulo{background:rgba(108,35,217,0.15);border:1px solid rgba(108,35,217,0.4);border-radius:16px;padding:24px 28px;margin-bottom:14px;}
+    .modulo h4{font-size:17px;font-weight:700;color:#c084fc;margin-bottom:8px;}
+    .modulo p{font-size:15px;margin:0;color:rgba(255,255,255,0.7);}
+
+    /* INCLUYE */
+    .incluye-item{display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid rgba(255,255,255,0.06);}
+    .incluye-icon{font-size:26px;min-width:36px;}
+    .incluye-text h4{font-size:16px;font-weight:700;margin-bottom:4px;}
+    .incluye-text p{font-size:14px;margin:0;color:rgba(255,255,255,0.6);}
+    .valor{font-size:13px;color:#a78bfa;font-weight:600;}
+
+    /* PRECIO */
+    .precio-box{background:linear-gradient(135deg,rgba(108,35,217,0.3),rgba(26,10,74,0.5));border:2px solid #7c3aed;border-radius:24px;padding:48px 36px;text-align:center;}
+    .precio-tachado{font-size:20px;color:rgba(255,255,255,0.4);text-decoration:line-through;margin-bottom:8px;}
+    .precio-real{font-size:clamp(48px,8vw,80px);font-weight:900;color:#c084fc;line-height:1;}
+    .precio-real span{font-size:24px;}
+    .precio-nota{font-size:15px;color:rgba(255,255,255,0.6);margin:12px 0 32px;}
+    .timer{background:rgba(0,0,0,0.3);border-radius:12px;padding:16px;margin-bottom:28px;font-size:14px;color:#fca5a5;}
+
+    .btn-comprar{display:block;width:100%;padding:20px;background:linear-gradient(90deg,#7c3aed,#a855f7);border:none;border-radius:16px;color:#fff;font-size:22px;font-weight:800;cursor:pointer;text-decoration:none;transition:0.3s;margin-bottom:14px;}
+    .btn-comprar:hover{transform:scale(1.02);}
+    .garantia{font-size:14px;color:rgba(255,255,255,0.5);}
+
+    /* TESTIMONIO */
+    .testi{background:rgba(255,255,255,0.05);border-left:4px solid #7c3aed;border-radius:0 12px 12px 0;padding:20px 24px;margin-bottom:16px;}
+    .testi p{font-style:italic;margin-bottom:10px;}
+    .testi strong{font-size:14px;color:#c084fc;}
+
+    /* GARANTIA */
+    .garantia-box{background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.3);border-radius:16px;padding:32px;text-align:center;}
+    .garantia-box h3{color:#86efac;margin-bottom:12px;}
+
+    /* FAQ */
+    .faq{border-bottom:1px solid rgba(255,255,255,0.1);padding:20px 0;}
+    .faq h4{font-size:17px;font-weight:700;margin-bottom:10px;color:#c084fc;}
+  </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <span class="badge">🚀 Programa de 8 Semanas</span>
+    <h1>De Cero a <span>Negocio Digital</span><br/>que Vende Solo</h1>
+    <p class="sub">El sistema completo para digitalizar cualquier negocio y crear un embudo de ventas automatizado — aunque no sepas nada de tecnología.</p>
+  </div>
+</section>
+
+<!-- PARA QUIEN -->
+<section style="background:#0f0f1a;">
+  <div class="container">
+    <h2>Este programa es para ti si...</h2>
+    <div class="card"><p>Tienes un negocio (o quieres empezar uno) y no sabes cómo llevarlo al mundo digital</p></div>
+    <div class="card"><p>Dependes del boca a boca y quieres tener clientes llegando solos todos los días</p></div>
+    <div class="card"><p>Quieres aprender a vender cursos, servicios o productos sin gastar en publicidad cara</p></div>
+    <div class="card"><p>Quieres un sistema que trabaje mientras tú duermes, descansas o atiendes otras cosas</p></div>
+    <div class="card"><p>No sabes nada de tecnología pero estás dispuesto a aprender paso a paso</p></div>
+  </div>
+</section>
+
+<!-- MODULOS -->
+<section style="background:#0a0a14;">
+  <div class="container">
+    <h2>Lo que aprenderás en 8 semanas</h2>
+    <div class="modulo">
+      <h4>MÓDULO 1 — Define tu negocio digital</h4>
+      <p>Nicho, cliente ideal, oferta irresistible y precio. La base de todo.</p>
+    </div>
+    <div class="modulo">
+      <h4>MÓDULO 2 — Tu presencia digital en 48 horas</h4>
+      <p>Instagram, Google My Business, WhatsApp Business y landing page básica.</p>
+    </div>
+    <div class="modulo">
+      <h4>MÓDULO 3 — Contenido que atrae clientes</h4>
+      <p>El método 3-1-1 para publicar sin quedarte sin ideas y atraer clientes en piloto automático.</p>
+    </div>
+    <div class="modulo">
+      <h4>MÓDULO 4 — WhatsApp como vendedor 24/7</h4>
+      <p>Configura mensajes automáticos, catálogo y bot que cierra ventas mientras duermes.</p>
+    </div>
+    <div class="modulo">
+      <h4>MÓDULO 5 — Webinar o masterclass que vende</h4>
+      <p>Graba una vez, vende siempre. Guion completo y herramientas gratuitas.</p>
+    </div>
+    <div class="modulo">
+      <h4>MÓDULO 6 — Página de ventas que convierte</h4>
+      <p>Estructura, copy y diseño de una página que transforma visitantes en compradores.</p>
+    </div>
+    <div class="modulo">
+      <h4>MÓDULO 7 — El embudo automatizado</h4>
+      <p>Emails + WhatsApp + seguimiento automático. Configúralo una vez y listo.</p>
+    </div>
+    <div class="modulo">
+      <h4>MÓDULO 8 — Escalar con anuncios</h4>
+      <p>Cómo invertir $100 MXN/día en Meta Ads para traer leads constantes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- QUE INCLUYE -->
+<section style="background:#0f0f1a;">
+  <div class="container">
+    <h2>Todo lo que incluye</h2>
+    <div class="incluye-item">
+      <div class="incluye-icon">🎬</div>
+      <div class="incluye-text"><h4>8 Módulos en Video</h4><p>Más de 40 lecciones paso a paso. Ve a tu ritmo, desde tu celular.</p><span class="valor">Valor: $3,000 MXN</span></div>
+    </div>
+    <div class="incluye-item">
+      <div class="incluye-icon">📋</div>
+      <div class="incluye-text"><h4>Pack de Plantillas Listas</h4><p>Landing page, página de ventas, emails, posts de redes y guion de webinar.</p><span class="valor">Valor: $1,500 MXN</span></div>
+    </div>
+    <div class="incluye-item">
+      <div class="incluye-icon">👥</div>
+      <div class="incluye-text"><h4>Comunidad Privada</h4><p>Grupo con acceso directo a mí y a otros estudiantes para resolver dudas.</p><span class="valor">Valor: $1,000 MXN</span></div>
+    </div>
+    <div class="incluye-item">
+      <div class="incluye-icon">🎙️</div>
+      <div class="incluye-text"><h4>4 Sesiones Grupales en Vivo</h4><p>Una sesión cada 2 semanas donde resolvemos dudas en tiempo real.</p><span class="valor">Valor: $2,000 MXN</span></div>
+    </div>
+    <div class="incluye-item">
+      <div class="incluye-icon">💬</div>
+      <div class="incluye-text"><h4>Soporte por WhatsApp 8 Semanas</h4><p>Acceso directo para preguntas durante todo el programa.</p><span class="valor">Valor: $2,000 MXN</span></div>
+    </div>
+    <div class="incluye-item">
+      <div class="incluye-icon">🎁</div>
+      <div class="incluye-text"><h4>BONO: Guion de Webinar Probado</h4><p>El guion exacto que uso yo para vender en automático.</p><span class="valor">Valor: $500 MXN — GRATIS hoy</span></div>
+    </div>
+    <p style="margin-top:24px;font-size:18px;font-weight:700;">Valor total: <span style="color:#c084fc;">$10,000 MXN</span></p>
+  </div>
+</section>
+
+<!-- PRECIO -->
+<section style="background:#0a0a14;">
+  <div class="container">
+    <div class="precio-box">
+      <p class="precio-tachado">Precio regular: $8,000 MXN</p>
+      <div class="precio-real"><span>$</span>2,997 <span>MXN</span></div>
+      <p class="precio-nota">Pago único — acceso de por vida</p>
+      <div class="timer">⏰ Este precio especial cierra en: <strong id="countdown">47:59:59</strong></div>
+      <a href="#" class="btn-comprar">QUIERO ENTRAR AL PROGRAMA →</a>
+      <p class="garantia">🔒 Pago seguro · Garantía de 7 días · Acceso inmediato</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section style="background:#0f0f1a;">
+  <div class="container">
+    <h2>Lo que dicen quienes ya lo hicieron</h2>
+    <div class="testi">
+      <p>"Tenía una cremería sin presencia digital. En 6 semanas ya tenía pedidos por WhatsApp todos los días. No puedo creer que antes no lo hacía."</p>
+      <strong>— María G., dueña de cremería, Monterrey</strong>
+    </div>
+    <div class="testi">
+      <p>"Vendí mi primer curso online en la semana 5 del programa. Recuperé la inversión y seguí vendiendo. El sistema funciona solo."</p>
+      <strong>— Carlos R., consultor, CDMX</strong>
+    </div>
+    <div class="testi">
+      <p>"Soy maestra y no sabía nada de tecnología. Ahora tengo un curso de inglés online y alumnos de 3 países diferentes."</p>
+      <strong>— Sofía M., docente, Guadalajara</strong>
+    </div>
+  </div>
+</section>
+
+<!-- GARANTIA -->
+<section style="background:#0a0a14;">
+  <div class="container">
+    <div class="garantia-box">
+      <h3>🛡️ Garantía Total de 7 Días</h3>
+      <p>Si en los primeros 7 días del programa sientes que no es para ti, te devuelvo el 100% de tu dinero. Sin preguntas, sin complicaciones. El riesgo es cero.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="background:#0f0f1a;">
+  <div class="container">
+    <h2>Preguntas frecuentes</h2>
+    <div class="faq">
+      <h4>¿Necesito saber de tecnología?</h4>
+      <p>No. Cada lección tiene tutoriales con capturas de pantalla. Si sabes usar WhatsApp, puedes hacer esto.</p>
+    </div>
+    <div class="faq">
+      <h4>¿Cuánto tiempo necesito dedicarle?</h4>
+      <p>45–60 minutos por semana es suficiente. Las lecciones son cortas y directas al punto.</p>
+    </div>
+    <div class="faq">
+      <h4>¿Funciona para cualquier tipo de negocio?</h4>
+      <p>Sí. El sistema funciona para negocios físicos, servicios, cursos, consultorías y productos digitales.</p>
+    </div>
+    <div class="faq">
+      <h4>¿Cuándo empiezo?</h4>
+      <p>Inmediatamente después de tu pago. Recibes acceso al instante en tu correo.</p>
+    </div>
+    <div class="faq">
+      <h4>¿Qué pasa si no me funciona?</h4>
+      <p>Tienes 7 días de garantía total. Si no estás satisfecho, te devolvemos todo tu dinero.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section style="background:linear-gradient(135deg,#6c23d9,#1a0a4a);text-align:center;">
+  <div class="container">
+    <h2>¿Sigues pensándolo?</h2>
+    <p style="max-width:500px;margin:0 auto 32px;">Cada día que pasa sin un sistema digital es un día que pierdes clientes. El precio sube cuando se acaben los cupos.</p>
+    <a href="#" class="btn-comprar" style="max-width:460px;margin:0 auto;display:block;">ENTRAR AL PROGRAMA AHORA →</a>
+    <p style="margin-top:16px;font-size:14px;opacity:0.5;">Acceso inmediato · Garantía 7 días · Pago único</p>
+  </div>
+</section>
+
+<script>
+  // Countdown timer — 48 horas
+  let total = 47 * 3600 + 59 * 60 + 59;
+  const el = document.getElementById('countdown');
+  setInterval(() => {
+    if (total <= 0) { el.textContent = '¡OFERTA EXPIRADA!'; return; }
+    total--;
+    const h = String(Math.floor(total/3600)).padStart(2,'0');
+    const m = String(Math.floor((total%3600)/60)).padStart(2,'0');
+    const s = String(total%60).padStart(2,'0');
+    el.textContent = `${h}:${m}:${s}`;
+  }, 1000);
+</script>
+</body>
+</html>
